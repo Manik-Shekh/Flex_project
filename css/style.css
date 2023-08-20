@@ -1,0 +1,494 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Header Section Start From Here*/
+
+.header_section{
+    width: 100%;
+    background: rgb(184, 127, 80);
+    padding: 15px 0px;
+}
+.container{
+    width: 1140px;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+}
+.Logo img{
+    width: 80px;
+    height: 60px;
+}
+.nav ul{
+    display: inline-flex;
+    list-style: none;
+
+}
+.nav ul li{
+    padding: 5px;
+}
+.nav ul li a{
+  text-decoration: none;
+  font-size: 20px;
+  padding: 8px 10px;
+  color: white;
+  line-height: 40px;
+  
+}
+.nav ul li a:hover{
+    background: rgb(113, 55, 55);
+    color: white;
+    border-radius: 8px;
+    transition: 0.4s;
+}
+.drop_down ul{
+    display: none;
+}
+.nav ul li:hover .drop_down ul{
+    display: block;
+}
+
+.Button_design a button{
+    outline: none;
+    border: none;
+    padding: 3px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: white;
+    background: rgb(113, 55, 55);
+    font-size: 15px;
+}
+.Button_design a .fa-solid{
+    font-size: 15px;
+
+}
+.nav ul li a .fa-solid{
+    font-size: 15px;
+}
+.Button_design a button:hover{
+    padding: 8px 25px;
+    transition: 0.4s;
+}
+/* banner Section css Start From Here*/
+.container{
+
+    width: 1140px;
+    margin:0px auto;
+    display: flex;
+}
+.Left{
+    flex-basis:50% ;
+    margin-top: 200px;
+
+}
+.Left p{
+    font-size: 22px;
+    margin: 20px 0px;
+}
+.Left button{
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    background:  rgb(113, 55, 55);
+    color: white;
+    font-size: 18px;
+}
+.Left button:hover{
+    padding: 15px 25px;
+    transition: 0.4s;
+
+}
+.Right{
+    flex-basis: 50%;
+    margin-top: 140px;
+}
+.Right img{
+    padding: 20px 20px;
+}
+.Right img:hover{
+    padding: 10px 10px;
+}
+
+/* banner_1 Section css Start From Here*/
+
+.item1{
+    flex-basis: 30%;
+    background:  rgb(113, 55, 55);
+    padding:25px 35px;
+    margin: 150px 0px;
+    color: white;
+    border-radius: 5px;
+}
+.item2{
+    flex-basis: 30%;
+    background:  rgb(162, 83, 83);
+    padding:25px 35px;
+    margin: 150px 0px;
+    color: white;
+    border-radius: 5px;
+}
+.item3{
+    flex-basis: 30%;
+    background:  rgb(148, 52, 52);
+    padding:20px 30px;
+    margin: 150px 0px;
+    color: white;
+    border-radius: 5px;
+}
+.item1 p{
+    margin: 10px 0px;
+}
+.item2 p{
+    margin: 10px 0px;
+}
+.item3 p{
+    margin: 10px 0px;
+}
+.fa-solid{
+    margin-right: 15px;
+}
+.item1 h1{
+    font-size: 25px;
+
+}
+.item2 h1{
+    font-size: 25px;
+    
+}
+.item3 h1{
+    font-size: 25px;
+    
+}
+/* banner_2 Section css Start From Here*/
+.Left h3{
+    font-weight: 100;
+    margin: 10px 0px;
+}
+.Banner_2back{
+    width: 100%;
+    background: #eee;
+}
+.left1{
+    flex-basis: 50%;
+    margin: 100px 0px;
+    padding: 20px;
+
+}
+.right1{
+    flex-basis: 50%;
+    margin: 100px 0px;
+    padding: 20px;
+    margin-left: 100px;
+    margin-top: 150px;
+
+}
+.right1 h1{
+    margin: 20px 0px;
+}
+.Banner_3back{
+    background: #f8f9fa;;
+}
+.right1 button{
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    background: rgb(113, 55, 55);
+    border-radius: 5px;
+    margin: 20px 0px;
+    font-size: 20px;
+    color: white;
+
+}
+.right1 button:hover{
+    padding: 15px 25px;
+    transition: 0.4s;
+
+}
+.picture_design{
+    width: 600px;
+    height: 400px;
+}
+.container_text{
+    width: 1140px;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 24px;
+}
+.container_logo{
+    width: 1140px;
+    margin: 20px auto;
+    text-align: center;
+
+}
+
+.color_1{
+    flex-basis: 25%;
+    height: 4px;
+    background:rgb(58, 193, 237) ;
+    margin: 10px 0px;
+    margin: 50px 0px;
+
+}
+.color_2{
+    flex-basis: 25%;
+    height: 4px;
+    background:red ;
+    margin: 10px 0px;
+    margin: 50px 0px;
+    
+}
+.color_3{
+    flex-basis: 25%;
+    height: 4px;
+    background:yellow ;
+    margin: 10px 0px;
+    margin: 50px 0px;
+    
+}
+.color_4{
+    flex-basis: 25%;
+    height: 4px;
+    background:green ;
+    margin: 10px 0px;
+    margin: 50px 0px;
+    
+}
+.item4{
+    flex-basis: 25%;
+    padding: 10px 15px;
+
+}
+.item5{
+    flex-basis: 25%;
+    padding: 10px 15px;
+    font-size: 20px;
+    
+}
+.item6{
+    flex-basis: 25%;
+    padding: 10px 15px;
+    
+}
+.item7{
+    flex-basis: 25%;
+    padding: 10px 15px;
+    
+}
+.container .fa-solid {
+    font-size: 25px;
+    margin: 10px 0px;
+
+}
+.container .fa-regular{
+    font-size: 30px;
+    margin: 10px 0px;
+}
+.item4:hover{
+    background: rgb(234, 126, 214);
+    color: black;
+    border-radius: 5px;
+
+}
+.item5:hover{
+    background: rgb(174, 147, 59);
+    color: black;
+    border-radius: 5px;
+    
+}
+.item6:hover{
+    background: rgb(235, 109, 109);
+    color: black;
+    border-radius: 5px;
+    
+}
+.item7:hover{
+    background: rgb(74, 191, 214);
+    color: black;
+    border-radius: 5px;
+    
+}
+.item8{
+    flex-basis: 33%;
+    margin: 100px 50px 0px 0px;
+    padding: 10px;
+}
+.item9{
+    flex-basis: 33%;
+    margin: 100px 50px 0px 0px;
+
+}
+.item10{
+    flex-basis: 33%;
+    margin: 100px 50px 0px 0px;
+
+}
+.item8 img{
+    width: 100px;
+    height: 100px;
+    margin: 20px 0px;
+}
+.item8 p{
+    margin: 20px 0px;
+}
+.item8 button{
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    background: rgb(113, 55, 55) ;
+    font-size: 18px;
+    color: white;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.item8 button:hover{
+    padding: 15px 25px;
+    transition: 0.4s;
+}
+.small_pic img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.small_pic{
+    margin-top: 170px;
+}
+.item9 img{
+    width: 400px;
+    height: 500px;
+}
+.item10 p{
+    margin: 100px 0px;
+    padding: 10px;
+
+}
+/* banner section 8*/
+.container_back{
+    width: 1140px;
+    margin:80px auto;
+    display: flex;
+    background: rgb(124, 57, 57);
+    border-radius: 5px;
+}
+.container_back h1{
+    margin-bottom: 12px;
+}
+.box_1{
+    flex-basis: 50%;
+    color: white;
+    padding: 20px 35px;
+}
+.box_2{
+    flex-basis: 50%;
+    color: white;
+    padding: 20px 35px;
+}
+.box_2:hover{
+    background:rgb(75, 24, 24);
+    color:white;
+}
+.box_1:hover{
+    background: rgb(75, 24, 24);
+    color: white;
+}
+/* banner section 9*/
+.box_3{
+    flex-basis: 25%;
+    padding: 20px;
+}
+.box_4{
+    flex-basis: 25%;
+    padding: 20px;
+}
+.box_5{
+    flex-basis: 25%;
+    padding: 20px;
+}
+.box_6{
+    flex-basis: 25%;
+    padding: 20px;
+}
+.box_5 a{
+    display: block;
+    text-decoration: none;
+    color:black;
+    cursor: pointer;
+    
+}
+.box_6 a{
+    display: block;
+    text-decoration: none;
+    color:black;
+    cursor: pointer;  
+}
+
+.box_5 h1{
+    margin-bottom: 10px;
+}
+.box_6 h1{
+    margin-bottom: 10px;
+}
+.box_4 h1{
+    margin-bottom: 10px;
+}
+.box_3 h1{
+    margin-bottom: 10px;
+}
+
+.box_5:hover{
+    background:rgb(75, 24, 24);
+    color:white;
+    transition: 0.4s;
+    border-radius: 5px;
+}
+.box_6:hover{
+    background:rgb(75, 24, 24);
+    color:white;
+    transition: 0.4s;
+    border-radius: 5px;
+}
+.box_4:hover{
+    background:rgb(75, 24, 24);
+    color:white;
+    transition: 0.4s;
+    border-radius: 5px;
+}
+.box_3:hover{
+    background:rgb(75, 24, 24);
+    color:white;
+    transition: 0.4s;
+    border-radius: 5px;
+}
+.box_5 a:hover{
+    width: 100%;
+    background: rgb(193, 81, 81);
+    color: white;
+    padding: 5px;
+
+    
+}
+.box_6 a:hover{
+    width: 100%;
+    background: rgb(193, 81, 81);
+    color: white;
+    padding: 5px 15px ;
+ 
+}
+.Last{
+
+}
+.Last img{
+    width: 1140px;
+    margin: 50px 0px;
+
+}
+.Last p{
+    text-align: center;
+    color: rgb(180, 81, 81);
+    margin: 50px 0px;
+
+}
+.inner_div{
+    background: #eee;
+}
